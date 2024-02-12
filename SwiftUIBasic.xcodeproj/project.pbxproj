@@ -16,6 +16,7 @@
 		129D31A22B7A4A3B00B5FA5D /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */; };
 		129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A32B7A504A00B5FA5D /* GradientBasic.swift */; };
 		129D31A72B7A53A100B5FA5D /* IconBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A62B7A53A100B5FA5D /* IconBasic.swift */; };
+		129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A82B7A552000B5FA5D /* ImageBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
 		129D31A32B7A504A00B5FA5D /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 		129D31A62B7A53A100B5FA5D /* IconBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconBasic.swift; sourceTree = "<group>"; };
+		129D31A82B7A552000B5FA5D /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */,
 				129D31A32B7A504A00B5FA5D /* GradientBasic.swift */,
 				129D31A62B7A53A100B5FA5D /* IconBasic.swift */,
+				129D31A82B7A552000B5FA5D /* ImageBasic.swift */,
 			);
 			path = "UI Basic";
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
 				129D31A72B7A53A100B5FA5D /* IconBasic.swift in Sources */,
 				129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */,
