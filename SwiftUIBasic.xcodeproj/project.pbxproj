@@ -14,6 +14,7 @@
 		129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D319D2B7A3FE000B5FA5D /* TextBasic.swift */; };
 		129D31A02B7A443200B5FA5D /* ShapeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D319F2B7A443200B5FA5D /* ShapeBasic.swift */; };
 		129D31A22B7A4A3B00B5FA5D /* ColorBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */; };
+		129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A32B7A504A00B5FA5D /* GradientBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		129D319D2B7A3FE000B5FA5D /* TextBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasic.swift; sourceTree = "<group>"; };
 		129D319F2B7A443200B5FA5D /* ShapeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBasic.swift; sourceTree = "<group>"; };
 		129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasic.swift; sourceTree = "<group>"; };
+		129D31A32B7A504A00B5FA5D /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				129D31952B7A3F4F00B5FA5D /* Preview Content */,
 				129D319F2B7A443200B5FA5D /* ShapeBasic.swift */,
 				129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */,
+				129D31A32B7A504A00B5FA5D /* GradientBasic.swift */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
 				129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */,
 				129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */,
 				129D31A02B7A443200B5FA5D /* ShapeBasic.swift in Sources */,
