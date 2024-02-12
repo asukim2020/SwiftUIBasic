@@ -59,14 +59,11 @@
 		129D318E2B7A3F4E00B5FA5D /* SwiftUIBasic */ = {
 			isa = PBXGroup;
 			children = (
-				129D319D2B7A3FE000B5FA5D /* TextBasic.swift */,
+				129D31A52B7A522D00B5FA5D /* UI Basic */,
 				129D318F2B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift */,
 				129D31912B7A3F4E00B5FA5D /* ContentView.swift */,
 				129D31932B7A3F4F00B5FA5D /* Assets.xcassets */,
 				129D31952B7A3F4F00B5FA5D /* Preview Content */,
-				129D319F2B7A443200B5FA5D /* ShapeBasic.swift */,
-				129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */,
-				129D31A32B7A504A00B5FA5D /* GradientBasic.swift */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -77,6 +74,17 @@
 				129D31962B7A3F4F00B5FA5D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		129D31A52B7A522D00B5FA5D /* UI Basic */ = {
+			isa = PBXGroup;
+			children = (
+				129D319D2B7A3FE000B5FA5D /* TextBasic.swift */,
+				129D319F2B7A443200B5FA5D /* ShapeBasic.swift */,
+				129D31A12B7A4A3B00B5FA5D /* ColorBasic.swift */,
+				129D31A32B7A504A00B5FA5D /* GradientBasic.swift */,
+			);
+			path = "UI Basic";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
