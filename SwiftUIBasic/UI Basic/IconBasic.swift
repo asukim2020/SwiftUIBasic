@@ -13,7 +13,7 @@ struct IconBasic: View {
             
             VStack (spacing: 20) {
                 
-                // MARK: - Icon
+                // MARK: - Icon - https://developer.apple.com/sf-symbols/
                 Image(systemName: "person.fill.badge.plus")
                     .resizable()
                     .renderingMode(.original)
