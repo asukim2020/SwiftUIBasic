@@ -26,6 +26,7 @@
 		129D31AB2B7A575800B5FA5D /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31AA2B7A575800B5FA5D /* FrameBasic.swift */; };
 		129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31AC2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift */; };
 		52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */; };
+		52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		129D31AA2B7A575800B5FA5D /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
 		129D31AC2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
 		52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
+		52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				125841032B7B9C9C00B691EF /* InitEnumBasic.swift */,
 				125841052B7BA1B600B691EF /* ForEachLoopBasic.swift */,
 				52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */,
+				52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */,
 			);
 			path = "UI Basic";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */,
 				129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */,
 				129D31A02B7A443200B5FA5D /* ShapeBasic.swift in Sources */,
+				52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */,
 				129D31A22B7A4A3B00B5FA5D /* ColorBasic.swift in Sources */,
 				129D31902B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift in Sources */,
 				125841002B7B975000B691EF /* SpacerBasic.swift in Sources */,
