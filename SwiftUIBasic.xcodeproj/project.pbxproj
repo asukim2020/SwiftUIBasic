@@ -27,6 +27,9 @@
 		129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31AC2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift */; };
 		12B291902B7E2E7C00577527 /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2918F2B7E2E7C00577527 /* ButtonBasic.swift */; };
 		12B291932B7E321900577527 /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291922B7E321900577527 /* StateBasic.swift */; };
+		12B291952B7E358C00577527 /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291942B7E358C00577527 /* ExtractViewBasic.swift */; };
+		12B291972B7E370E00577527 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291962B7E370E00577527 /* ItemBasic.swift */; };
+		12B291992B7E372A00577527 /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291982B7E372A00577527 /* ExtractSubViewBasic.swift */; };
 		52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */; };
 		52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		129D31AC2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
 		12B2918F2B7E2E7C00577527 /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
 		12B291922B7E321900577527 /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
+		12B291942B7E358C00577527 /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
+		12B291962B7E370E00577527 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
+		12B291982B7E372A00577527 /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
 		52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +139,9 @@
 			isa = PBXGroup;
 			children = (
 				12B291922B7E321900577527 /* StateBasic.swift */,
+				12B291942B7E358C00577527 /* ExtractViewBasic.swift */,
+				12B291962B7E370E00577527 /* ItemBasic.swift */,
+				12B291982B7E372A00577527 /* ExtractSubViewBasic.swift */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -211,6 +220,7 @@
 				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
 				52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */,
+				12B291992B7E372A00577527 /* ExtractSubViewBasic.swift in Sources */,
 				129D31A72B7A53A100B5FA5D /* IconBasic.swift in Sources */,
 				129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */,
 				12B291902B7E2E7C00577527 /* ButtonBasic.swift in Sources */,
@@ -224,9 +234,11 @@
 				125841002B7B975000B691EF /* SpacerBasic.swift in Sources */,
 				125841022B7B99C600B691EF /* ScrollViewBasic.swift in Sources */,
 				129D31AB2B7A575800B5FA5D /* FrameBasic.swift in Sources */,
+				12B291952B7E358C00577527 /* ExtractViewBasic.swift in Sources */,
 				125840FE2B7B8FDC00B691EF /* PaddingBasic.swift in Sources */,
 				12B291932B7E321900577527 /* StateBasic.swift in Sources */,
 				125840FC2B7B89E500B691EF /* StackBasic.swift in Sources */,
+				12B291972B7E370E00577527 /* ItemBasic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
