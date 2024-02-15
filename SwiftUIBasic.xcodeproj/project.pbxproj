@@ -25,6 +25,7 @@
 		129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31A82B7A552000B5FA5D /* ImageBasic.swift */; };
 		129D31AB2B7A575800B5FA5D /* FrameBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31AA2B7A575800B5FA5D /* FrameBasic.swift */; };
 		129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31AC2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift */; };
+		52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		129D31A82B7A552000B5FA5D /* ImageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBasic.swift; sourceTree = "<group>"; };
 		129D31AA2B7A575800B5FA5D /* FrameBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBasic.swift; sourceTree = "<group>"; };
 		129D31AC2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundOverlayBasic.swift; sourceTree = "<group>"; };
+		52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				125841012B7B99C600B691EF /* ScrollViewBasic.swift */,
 				125841032B7B9C9C00B691EF /* InitEnumBasic.swift */,
 				125841052B7BA1B600B691EF /* ForEachLoopBasic.swift */,
+				52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */,
 			);
 			path = "UI Basic";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				125841042B7B9C9C00B691EF /* InitEnumBasic.swift in Sources */,
 				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
+				52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */,
 				129D31A72B7A53A100B5FA5D /* IconBasic.swift in Sources */,
 				129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */,
 				125841062B7BA1B600B691EF /* ForEachLoopBasic.swift in Sources */,
