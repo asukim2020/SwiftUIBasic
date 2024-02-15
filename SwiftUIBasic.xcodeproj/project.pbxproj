@@ -30,6 +30,8 @@
 		12B291952B7E358C00577527 /* ExtractViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291942B7E358C00577527 /* ExtractViewBasic.swift */; };
 		12B291972B7E370E00577527 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291962B7E370E00577527 /* ItemBasic.swift */; };
 		12B291992B7E372A00577527 /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291982B7E372A00577527 /* ExtractSubViewBasic.swift */; };
+		12B2919B2B7E3AC800577527 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919A2B7E3AC800577527 /* BindingBasic.swift */; };
+		12B2919D2B7E3AFC00577527 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919C2B7E3AFC00577527 /* BindingChild.swift */; };
 		52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */; };
 		52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		12B291942B7E358C00577527 /* ExtractViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewBasic.swift; sourceTree = "<group>"; };
 		12B291962B7E370E00577527 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
 		12B291982B7E372A00577527 /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
+		12B2919A2B7E3AC800577527 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		12B2919C2B7E3AFC00577527 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +146,8 @@
 				12B291942B7E358C00577527 /* ExtractViewBasic.swift */,
 				12B291962B7E370E00577527 /* ItemBasic.swift */,
 				12B291982B7E372A00577527 /* ExtractSubViewBasic.swift */,
+				12B2919A2B7E3AC800577527 /* BindingBasic.swift */,
+				12B2919C2B7E3AFC00577527 /* BindingChild.swift */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -218,10 +224,12 @@
 			files = (
 				125841042B7B9C9C00B691EF /* InitEnumBasic.swift in Sources */,
 				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
+				12B2919B2B7E3AC800577527 /* BindingBasic.swift in Sources */,
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
 				52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */,
 				12B291992B7E372A00577527 /* ExtractSubViewBasic.swift in Sources */,
 				129D31A72B7A53A100B5FA5D /* IconBasic.swift in Sources */,
+				12B2919D2B7E3AFC00577527 /* BindingChild.swift in Sources */,
 				129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */,
 				12B291902B7E2E7C00577527 /* ButtonBasic.swift in Sources */,
 				125841062B7BA1B600B691EF /* ForEachLoopBasic.swift in Sources */,
