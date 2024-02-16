@@ -38,6 +38,8 @@
 		524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764682B7EF0170082C64E /* AnimationBasic2.swift */; };
 		5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646A2B7EF1350082C64E /* AnimationBasic3.swift */; };
 		5247646D2B7EF7880082C64E /* TransitionBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646C2B7EF7880082C64E /* TransitionBasic.swift */; };
+		524764702B7EFB5E0082C64E /* SheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646F2B7EFB5E0082C64E /* SheetBasic.swift */; };
+		524764722B7EFB6A0082C64E /* SheetBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764712B7EFB6A0082C64E /* SheetBasic2.swift */; };
 		52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */; };
 		52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		524764682B7EF0170082C64E /* AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic2.swift; sourceTree = "<group>"; };
 		5247646A2B7EF1350082C64E /* AnimationBasic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic3.swift; sourceTree = "<group>"; };
 		5247646C2B7EF7880082C64E /* TransitionBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBasic.swift; sourceTree = "<group>"; };
+		5247646F2B7EFB5E0082C64E /* SheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic.swift; sourceTree = "<group>"; };
+		524764712B7EFB6A0082C64E /* SheetBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBasic2.swift; sourceTree = "<group>"; };
 		52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +113,7 @@
 		129D318E2B7A3F4E00B5FA5D /* SwiftUIBasic */ = {
 			isa = PBXGroup;
 			children = (
+				5247646E2B7EFB2C0082C64E /* Core */,
 				524764652B7EEE730082C64E /* Animation */,
 				12B291912B7E31DD00577527 /* Property */,
 				129D31A52B7A522D00B5FA5D /* UI Basic */,
@@ -176,6 +181,23 @@
 				5247646C2B7EF7880082C64E /* TransitionBasic.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		5247646E2B7EFB2C0082C64E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				524764732B7EFB730082C64E /* Sheet */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		524764732B7EFB730082C64E /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				5247646F2B7EFB5E0082C64E /* SheetBasic.swift */,
+				524764712B7EFB6A0082C64E /* SheetBasic2.swift */,
+			);
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +276,7 @@
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
 				52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */,
 				12B291992B7E372A00577527 /* ExtractSubViewBasic.swift in Sources */,
+				524764702B7EFB5E0082C64E /* SheetBasic.swift in Sources */,
 				129D31A72B7A53A100B5FA5D /* IconBasic.swift in Sources */,
 				12B2919D2B7E3AFC00577527 /* BindingChild.swift in Sources */,
 				129D31AD2B7A5B9600B5FA5D /* BackgroundOverlayBasic.swift in Sources */,
@@ -270,6 +293,7 @@
 				524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */,
 				5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */,
 				129D31902B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift in Sources */,
+				524764722B7EFB6A0082C64E /* SheetBasic2.swift in Sources */,
 				125841002B7B975000B691EF /* SpacerBasic.swift in Sources */,
 				125841022B7B99C600B691EF /* ScrollViewBasic.swift in Sources */,
 				129D31AB2B7A575800B5FA5D /* FrameBasic.swift in Sources */,
