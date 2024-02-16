@@ -34,6 +34,9 @@
 		12B2919D2B7E3AFC00577527 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919C2B7E3AFC00577527 /* BindingChild.swift */; };
 		12B2919F2B7E3E0200577527 /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */; };
 		12B291A12B7E416E00577527 /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291A02B7E416E00577527 /* TernaryBasic.swift */; };
+		524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764662B7EEE800082C64E /* AnimationBasic1.swift */; };
+		524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764682B7EF0170082C64E /* AnimationBasic2.swift */; };
+		5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646A2B7EF1350082C64E /* AnimationBasic3.swift */; };
 		52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */; };
 		52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */; };
 /* End PBXBuildFile section */
@@ -67,6 +70,9 @@
 		12B2919C2B7E3AFC00577527 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		12B291A02B7E416E00577527 /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
+		524764662B7EEE800082C64E /* AnimationBasic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic1.swift; sourceTree = "<group>"; };
+		524764682B7EF0170082C64E /* AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic2.swift; sourceTree = "<group>"; };
+		5247646A2B7EF1350082C64E /* AnimationBasic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic3.swift; sourceTree = "<group>"; };
 		52B918CB2B7DBE3E00451E24 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
 		52B918CF2B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +107,7 @@
 		129D318E2B7A3F4E00B5FA5D /* SwiftUIBasic */ = {
 			isa = PBXGroup;
 			children = (
+				524764652B7EEE730082C64E /* Animation */,
 				12B291912B7E31DD00577527 /* Property */,
 				129D31A52B7A522D00B5FA5D /* UI Basic */,
 				129D318F2B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift */,
@@ -156,6 +163,16 @@
 				12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */,
 			);
 			path = Property;
+			sourceTree = "<group>";
+		};
+		524764652B7EEE730082C64E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				524764662B7EEE800082C64E /* AnimationBasic1.swift */,
+				524764682B7EF0170082C64E /* AnimationBasic2.swift */,
+				5247646A2B7EF1350082C64E /* AnimationBasic3.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +262,9 @@
 				52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */,
 				12B291A12B7E416E00577527 /* TernaryBasic.swift in Sources */,
 				129D31A22B7A4A3B00B5FA5D /* ColorBasic.swift in Sources */,
+				524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */,
+				524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */,
+				5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */,
 				129D31902B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift in Sources */,
 				125841002B7B975000B691EF /* SpacerBasic.swift in Sources */,
 				125841022B7B99C600B691EF /* ScrollViewBasic.swift in Sources */,
