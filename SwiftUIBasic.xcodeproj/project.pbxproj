@@ -23,6 +23,7 @@
 		125841062B7BA1B600B691EF /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125841052B7BA1B600B691EF /* ForEachLoopBasic.swift */; };
 		12891E172B80D515002B71E2 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E162B80D515002B71E2 /* TabViewBasic.swift */; };
 		12891E192B80D90B002B71E2 /* DarkModeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E182B80D90B002B71E2 /* DarkModeBasic.swift */; };
+		12891E1B2B80DAFF002B71E2 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */; };
 		129D31902B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D318F2B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift */; };
 		129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31912B7A3F4E00B5FA5D /* ContentView.swift */; };
 		129D31942B7A3F4F00B5FA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129D31932B7A3F4F00B5FA5D /* Assets.xcassets */; };
@@ -76,6 +77,7 @@
 		125841052B7BA1B600B691EF /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
 		12891E162B80D515002B71E2 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 		12891E182B80D90B002B71E2 /* DarkModeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBasic.swift; sourceTree = "<group>"; };
+		12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
 		129D318C2B7A3F4E00B5FA5D /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		129D318F2B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
 		129D31912B7A3F4E00B5FA5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				12DAFF032B80D179004D2D3D /* SliderBasic.swift */,
 				12891E162B80D515002B71E2 /* TabViewBasic.swift */,
 				12891E182B80D90B002B71E2 /* DarkModeBasic.swift */,
+				12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				12DEE6F02B806B7D002B1443 /* ToggleBasic.swift in Sources */,
 				12B2919B2B7E3AC800577527 /* BindingBasic.swift in Sources */,
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
+				12891E1B2B80DAFF002B71E2 /* OnAppearBasic.swift in Sources */,
 				52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */,
 				12B291992B7E372A00577527 /* ExtractSubViewBasic.swift in Sources */,
 				524764702B7EFB5E0082C64E /* SheetBasic.swift in Sources */,
