@@ -38,6 +38,7 @@
 		12B2919D2B7E3AFC00577527 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919C2B7E3AFC00577527 /* BindingChild.swift */; };
 		12B2919F2B7E3E0200577527 /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */; };
 		12B291A12B7E416E00577527 /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291A02B7E416E00577527 /* TernaryBasic.swift */; };
+		12DEE6F02B806B7D002B1443 /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */; };
 		524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764662B7EEE800082C64E /* AnimationBasic1.swift */; };
 		524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764682B7EF0170082C64E /* AnimationBasic2.swift */; };
 		5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646A2B7EF1350082C64E /* AnimationBasic3.swift */; };
@@ -84,6 +85,7 @@
 		12B2919C2B7E3AFC00577527 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		12B291A02B7E416E00577527 /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
+		12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		524764662B7EEE800082C64E /* AnimationBasic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic1.swift; sourceTree = "<group>"; };
 		524764682B7EF0170082C64E /* AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic2.swift; sourceTree = "<group>"; };
 		5247646A2B7EF1350082C64E /* AnimationBasic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic3.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				1237B0582B804C1100B90FEE /* ContextMenuBasic.swift */,
 				1237B05A2B804E5400B90FEE /* ActionSheetBasic.swift */,
 				1237B05C2B80533F00B90FEE /* TextFieldBasic.swift */,
+				12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				1237B0572B8047C600B90FEE /* AlertBasic.swift in Sources */,
 				125841042B7B9C9C00B691EF /* InitEnumBasic.swift in Sources */,
 				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
+				12DEE6F02B806B7D002B1443 /* ToggleBasic.swift in Sources */,
 				12B2919B2B7E3AC800577527 /* BindingBasic.swift in Sources */,
 				129D31A42B7A504A00B5FA5D /* GradientBasic.swift in Sources */,
 				52B918CC2B7DBE3E00451E24 /* LazyGridBasic.swift in Sources */,
