@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIBasicApp: App {
     var body: some Scene {
         WindowGroup {
-            TextFieldBasic()
+            DatePickerBasic()
         }
     }
 }
