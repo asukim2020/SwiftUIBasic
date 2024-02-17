@@ -24,6 +24,7 @@
 		12891E172B80D515002B71E2 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E162B80D515002B71E2 /* TabViewBasic.swift */; };
 		12891E192B80D90B002B71E2 /* DarkModeBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E182B80D90B002B71E2 /* DarkModeBasic.swift */; };
 		12891E1B2B80DAFF002B71E2 /* OnAppearBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */; };
+		12891E1D2B80DCC0002B71E2 /* OnTabGestureBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12891E1C2B80DCC0002B71E2 /* OnTabGestureBasic.swift */; };
 		129D31902B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D318F2B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift */; };
 		129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129D31912B7A3F4E00B5FA5D /* ContentView.swift */; };
 		129D31942B7A3F4F00B5FA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129D31932B7A3F4F00B5FA5D /* Assets.xcassets */; };
@@ -78,6 +79,7 @@
 		12891E162B80D515002B71E2 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
 		12891E182B80D90B002B71E2 /* DarkModeBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeBasic.swift; sourceTree = "<group>"; };
 		12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearBasic.swift; sourceTree = "<group>"; };
+		12891E1C2B80DCC0002B71E2 /* OnTabGestureBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTabGestureBasic.swift; sourceTree = "<group>"; };
 		129D318C2B7A3F4E00B5FA5D /* SwiftUIBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		129D318F2B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicApp.swift; sourceTree = "<group>"; };
 		129D31912B7A3F4E00B5FA5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 				12891E162B80D515002B71E2 /* TabViewBasic.swift */,
 				12891E182B80D90B002B71E2 /* DarkModeBasic.swift */,
 				12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */,
+				12891E1C2B80DCC0002B71E2 /* OnTabGestureBasic.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				12B291902B7E2E7C00577527 /* ButtonBasic.swift in Sources */,
 				125841062B7BA1B600B691EF /* ForEachLoopBasic.swift in Sources */,
 				129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */,
+				12891E1D2B80DCC0002B71E2 /* OnTabGestureBasic.swift in Sources */,
 				524764782B7EFD650082C64E /* SecondNavigationView.swift in Sources */,
 				129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */,
 				12DAFF042B80D179004D2D3D /* SliderBasic.swift in Sources */,
