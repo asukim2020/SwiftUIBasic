@@ -10,6 +10,7 @@
 		1237B0572B8047C600B90FEE /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237B0562B8047C600B90FEE /* AlertBasic.swift */; };
 		1237B0592B804C1100B90FEE /* ContextMenuBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237B0582B804C1100B90FEE /* ContextMenuBasic.swift */; };
 		1237B05B2B804E5400B90FEE /* ActionSheetBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237B05A2B804E5400B90FEE /* ActionSheetBasic.swift */; };
+		1237B05D2B80533F00B90FEE /* TextFieldBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237B05C2B80533F00B90FEE /* TextFieldBasic.swift */; };
 		125840FC2B7B89E500B691EF /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125840FB2B7B89E500B691EF /* StackBasic.swift */; };
 		125840FE2B7B8FDC00B691EF /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125840FD2B7B8FDC00B691EF /* PaddingBasic.swift */; };
 		125841002B7B975000B691EF /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125840FF2B7B975000B691EF /* SpacerBasic.swift */; };
@@ -54,6 +55,7 @@
 		1237B0562B8047C600B90FEE /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 		1237B0582B804C1100B90FEE /* ContextMenuBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBasic.swift; sourceTree = "<group>"; };
 		1237B05A2B804E5400B90FEE /* ActionSheetBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetBasic.swift; sourceTree = "<group>"; };
+		1237B05C2B80533F00B90FEE /* TextFieldBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasic.swift; sourceTree = "<group>"; };
 		125840FB2B7B89E500B691EF /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		125840FD2B7B8FDC00B691EF /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		125840FF2B7B975000B691EF /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				524764732B7EFB730082C64E /* Sheet */,
 				1237B0582B804C1100B90FEE /* ContextMenuBasic.swift */,
 				1237B05A2B804E5400B90FEE /* ActionSheetBasic.swift */,
+				1237B05C2B80533F00B90FEE /* TextFieldBasic.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */,
 				524764782B7EFD650082C64E /* SecondNavigationView.swift in Sources */,
 				129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */,
+				1237B05D2B80533F00B90FEE /* TextFieldBasic.swift in Sources */,
 				5247646D2B7EF7880082C64E /* TransitionBasic.swift in Sources */,
 				129D31A02B7A443200B5FA5D /* ShapeBasic.swift in Sources */,
 				52B918D02B7DC33D00451E24 /* IgnoreSafeAreaBasic.swift in Sources */,
@@ -465,10 +469,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBasic/Preview Content\"";
-				DEVELOPMENT_TEAM = 4RDNCVS7TT;
+				DEVELOPMENT_TEAM = 2R2YYN4YZ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -481,8 +486,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asukim.SwiftUIBasic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukim.test.SwiftUIBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -494,10 +500,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBasic/Preview Content\"";
-				DEVELOPMENT_TEAM = 4RDNCVS7TT;
+				DEVELOPMENT_TEAM = 2R2YYN4YZ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -510,8 +517,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.asukim.SwiftUIBasic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukim.test.SwiftUIBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
