@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1237B0572B8047C600B90FEE /* AlertBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1237B0562B8047C600B90FEE /* AlertBasic.swift */; };
 		125840FC2B7B89E500B691EF /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125840FB2B7B89E500B691EF /* StackBasic.swift */; };
 		125840FE2B7B8FDC00B691EF /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125840FD2B7B8FDC00B691EF /* PaddingBasic.swift */; };
 		125841002B7B975000B691EF /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125840FF2B7B975000B691EF /* SpacerBasic.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1237B0562B8047C600B90FEE /* AlertBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBasic.swift; sourceTree = "<group>"; };
 		125840FB2B7B89E500B691EF /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		125840FD2B7B8FDC00B691EF /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		125840FF2B7B975000B691EF /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
@@ -192,7 +194,8 @@
 		5247646E2B7EFB2C0082C64E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				524764792B7F00660082C64E /* List */,
+				5247647A2B7F00830082C64E /* ListBasic.swift */,
+				1237B0562B8047C600B90FEE /* AlertBasic.swift */,
 				524764742B7EFD380082C64E /* Navigation */,
 				524764732B7EFB730082C64E /* Sheet */,
 			);
@@ -215,14 +218,6 @@
 				524764772B7EFD650082C64E /* SecondNavigationView.swift */,
 			);
 			path = Navigation;
-			sourceTree = "<group>";
-		};
-		524764792B7F00660082C64E /* List */ = {
-			isa = PBXGroup;
-			children = (
-				5247647A2B7F00830082C64E /* ListBasic.swift */,
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1237B0572B8047C600B90FEE /* AlertBasic.swift in Sources */,
 				125841042B7B9C9C00B691EF /* InitEnumBasic.swift in Sources */,
 				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
 				12B2919B2B7E3AC800577527 /* BindingBasic.swift in Sources */,
