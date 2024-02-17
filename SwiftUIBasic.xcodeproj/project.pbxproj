@@ -42,6 +42,7 @@
 		12B2919D2B7E3AFC00577527 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919C2B7E3AFC00577527 /* BindingChild.swift */; };
 		12B2919F2B7E3E0200577527 /* ConditionalBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */; };
 		12B291A12B7E416E00577527 /* TernaryBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B291A02B7E416E00577527 /* TernaryBasic.swift */; };
+		12DAFF042B80D179004D2D3D /* SliderBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DAFF032B80D179004D2D3D /* SliderBasic.swift */; };
 		12DEE6F02B806B7D002B1443 /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */; };
 		524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764662B7EEE800082C64E /* AnimationBasic1.swift */; };
 		524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764682B7EF0170082C64E /* AnimationBasic2.swift */; };
@@ -93,6 +94,7 @@
 		12B2919C2B7E3AFC00577527 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		12B2919E2B7E3E0200577527 /* ConditionalBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBasic.swift; sourceTree = "<group>"; };
 		12B291A02B7E416E00577527 /* TernaryBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBasic.swift; sourceTree = "<group>"; };
+		12DAFF032B80D179004D2D3D /* SliderBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBasic.swift; sourceTree = "<group>"; };
 		12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		524764662B7EEE800082C64E /* AnimationBasic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic1.swift; sourceTree = "<group>"; };
 		524764682B7EF0170082C64E /* AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic2.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				1237E58E2B806F4800A3CAD2 /* ColorPickerBasic.swift */,
 				1237E5902B8074CA00A3CAD2 /* DatePickerBasic.swift */,
 				1237E5922B8078F400A3CAD2 /* StepperBasic.swift */,
+				12DAFF032B80D179004D2D3D /* SliderBasic.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				129D319E2B7A3FE000B5FA5D /* TextBasic.swift in Sources */,
 				524764782B7EFD650082C64E /* SecondNavigationView.swift in Sources */,
 				129D31922B7A3F4E00B5FA5D /* ContentView.swift in Sources */,
+				12DAFF042B80D179004D2D3D /* SliderBasic.swift in Sources */,
 				1237B05D2B80533F00B90FEE /* TextFieldBasic.swift in Sources */,
 				5247646D2B7EF7880082C64E /* TransitionBasic.swift in Sources */,
 				129D31A02B7A443200B5FA5D /* ShapeBasic.swift in Sources */,
