@@ -58,6 +58,7 @@
 		12EA57DF2B81A012008A5CA6 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57DE2B81A012008A5CA6 /* IOSDeviceView1.swift */; };
 		12EA57E12B81A09F008A5CA6 /* IOSDeviceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57E02B81A09F008A5CA6 /* IOSDeviceView2.swift */; };
 		12EA57E32B81A184008A5CA6 /* IOSDeviceView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57E22B81A184008A5CA6 /* IOSDeviceView3.swift */; };
+		12EA57E52B821A56008A5CA6 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57E42B821A56008A5CA6 /* AppStorageBasic.swift */; };
 		524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764662B7EEE800082C64E /* AnimationBasic1.swift */; };
 		524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764682B7EF0170082C64E /* AnimationBasic2.swift */; };
 		5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646A2B7EF1350082C64E /* AnimationBasic3.swift */; };
@@ -124,6 +125,7 @@
 		12EA57DE2B81A012008A5CA6 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
 		12EA57E02B81A09F008A5CA6 /* IOSDeviceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView2.swift; sourceTree = "<group>"; };
 		12EA57E22B81A184008A5CA6 /* IOSDeviceView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDeviceView3.swift; sourceTree = "<group>"; };
+		12EA57E42B821A56008A5CA6 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		524764662B7EEE800082C64E /* AnimationBasic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic1.swift; sourceTree = "<group>"; };
 		524764682B7EF0170082C64E /* AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic2.swift; sourceTree = "<group>"; };
 		5247646A2B7EF1350082C64E /* AnimationBasic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic3.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				12891E182B80D90B002B71E2 /* DarkModeBasic.swift */,
 				12891E1A2B80DAFF002B71E2 /* OnAppearBasic.swift */,
 				12891E1C2B80DCC0002B71E2 /* OnTabGestureBasic.swift */,
+				12EA57E42B821A56008A5CA6 /* AppStorageBasic.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */,
 				5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */,
 				129D31902B7A3F4E00B5FA5D /* SwiftUIBasicApp.swift in Sources */,
+				12EA57E52B821A56008A5CA6 /* AppStorageBasic.swift in Sources */,
 				524764722B7EFB6A0082C64E /* SheetBasic2.swift in Sources */,
 				524764762B7EFD540082C64E /* NavigationBasic.swift in Sources */,
 				125841002B7B975000B691EF /* SpacerBasic.swift in Sources */,
