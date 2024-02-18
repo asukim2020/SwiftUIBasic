@@ -50,6 +50,9 @@
 		12DEE6F02B806B7D002B1443 /* ToggleBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */; };
 		12EA57CF2B8194FF008A5CA6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57CE2B8194FF008A5CA6 /* UserModel.swift */; };
 		12EA57D12B8195C7008A5CA6 /* UserModelBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57D02B8195C7008A5CA6 /* UserModelBasicView.swift */; };
+		12EA57D32B81991B008A5CA6 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57D22B81991B008A5CA6 /* FruitModel.swift */; };
+		12EA57D52B819942008A5CA6 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57D42B819942008A5CA6 /* FruitViewModel.swift */; };
+		12EA57D92B819B23008A5CA6 /* FruitBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12EA57D82B819B23008A5CA6 /* FruitBasicView.swift */; };
 		524764672B7EEE800082C64E /* AnimationBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764662B7EEE800082C64E /* AnimationBasic1.swift */; };
 		524764692B7EF0170082C64E /* AnimationBasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524764682B7EF0170082C64E /* AnimationBasic2.swift */; };
 		5247646B2B7EF1350082C64E /* AnimationBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247646A2B7EF1350082C64E /* AnimationBasic3.swift */; };
@@ -108,6 +111,9 @@
 		12DEE6EF2B806B7D002B1443 /* ToggleBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBasic.swift; sourceTree = "<group>"; };
 		12EA57CE2B8194FF008A5CA6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		12EA57D02B8195C7008A5CA6 /* UserModelBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelBasicView.swift; sourceTree = "<group>"; };
+		12EA57D22B81991B008A5CA6 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		12EA57D42B819942008A5CA6 /* FruitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
+		12EA57D82B819B23008A5CA6 /* FruitBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitBasicView.swift; sourceTree = "<group>"; };
 		524764662B7EEE800082C64E /* AnimationBasic1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic1.swift; sourceTree = "<group>"; };
 		524764682B7EF0170082C64E /* AnimationBasic2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic2.swift; sourceTree = "<group>"; };
 		5247646A2B7EF1350082C64E /* AnimationBasic3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBasic3.swift; sourceTree = "<group>"; };
@@ -225,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				12EA57CE2B8194FF008A5CA6 /* UserModel.swift */,
+				12EA57D22B81991B008A5CA6 /* FruitModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +239,7 @@
 		12EA57CC2B8194E8008A5CA6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				12EA57D42B819942008A5CA6 /* FruitViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				12EA57D02B8195C7008A5CA6 /* UserModelBasicView.swift */,
+				12EA57D82B819B23008A5CA6 /* FruitBasicView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -368,6 +377,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1237B0572B8047C600B90FEE /* AlertBasic.swift in Sources */,
+				12EA57D92B819B23008A5CA6 /* FruitBasicView.swift in Sources */,
+				12EA57D52B819942008A5CA6 /* FruitViewModel.swift in Sources */,
 				125841042B7B9C9C00B691EF /* InitEnumBasic.swift in Sources */,
 				129D31A92B7A552000B5FA5D /* ImageBasic.swift in Sources */,
 				12891E172B80D515002B71E2 /* TabViewBasic.swift in Sources */,
@@ -416,6 +427,7 @@
 				12B291932B7E321900577527 /* StateBasic.swift in Sources */,
 				12B2919F2B7E3E0200577527 /* ConditionalBasic.swift in Sources */,
 				125840FC2B7B89E500B691EF /* StackBasic.swift in Sources */,
+				12EA57D32B81991B008A5CA6 /* FruitModel.swift in Sources */,
 				1237E58D2B806D4900A3CAD2 /* PickerBasic.swift in Sources */,
 				12B291972B7E370E00577527 /* ItemBasic.swift in Sources */,
 				1237E5932B8078F400A3CAD2 /* StepperBasic.swift in Sources */,
